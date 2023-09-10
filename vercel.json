@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/bin/www/(.*)", "destination": "/bin/www" }]
+}
