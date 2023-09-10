@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
     current_day: daysOfWeek[currentDate.getDay()],
     utc_time: currentDate.toISOString(),
     track: "backend",
-    github_file_ur: "https://github.com/mosesmrima/HNGx/blob/master/routes/index.js",
+    github_file_url: "https://github.com/mosesmrima/HNGx/blob/master/routes/index.js",
     github_repo_url: "https://github.com/mosesmrima/HNGx",
     status_code: 200
 })
